@@ -35,6 +35,7 @@
 		})()
 		
 		function AdminPost(title,body,pictureUrl){
+			this.id = uniqId();
 			this.title = title;
 			this.body = body;
 			this.pictureUrl = pictureUrl;
