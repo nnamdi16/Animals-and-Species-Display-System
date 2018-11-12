@@ -2,15 +2,45 @@
   "adminPost": [
     {
       "id": 1,
-      "title": " ",
-      "body": "",
-      "pictureUrl": ""
+      "animalName": " ",
+      "animalSpecies": "",
+      "pictureUrl": "",
+      "description": ""
     },
     {
-      "id": 2,
-      "title": "Shepherd ",
-      "body": "This is a way of growing healthy in the field",
-      "pictureUrl": "http://www.grow.com"
+      "animalName": "Butterfly",
+      "animalSpecies": "labalaba",
+      "pictureUrl": "Butterfly designed in natural hemisphere to build strong feet",
+      "description": "www.hemisphere.com",
+      "id": 2
+    },
+    {
+      "animalName": "Bacchus",
+      "animalSpecies": "bala",
+      "pictureUrl": "cvdbshbsjkbvsjkvdsjkvbsdkjvskjdvdksvskbv",
+      "description": "vchdcvdcdhjvbdhjvdbjdbbd",
+      "id": 3
+    },
+    {
+      "animalName": "Backbite",
+      "animalSpecies": "baksa",
+      "pictureUrl": "bfhwvbdshjvbdsjbvdsjbvdsjvbdsjvkdsbvdjsvbsjb",
+      "description": "jdvbdjsbvdsjvdsvbdsjvkbsdjkvd",
+      "id": 4
+    },
+    {
+      "animalName": "Beard",
+      "animalSpecies": "baskalsaa",
+      "pictureUrl": "vbvedbdshjbvhjvbdhjvbdjhvdsbvshjbvjhvbsdjbvsd",
+      "description": "sevhdsvbdsjvbdsjkvbdskvbdsjvbdjvbdvsb",
+      "id": 5
+    },
+    {
+      "animalName": "Beggar",
+      "animalSpecies": "Webad",
+      "pictureUrl": "gvewbhvbdshjvbdjvbdjvbdjvdbvsjbdv",
+      "description": "sdvbdbvsbvsbvdjvbsdbv",
+      "id": 6
     }
   ],
   "users": [
@@ -27,7 +57,7 @@
       "id": 1,
       "firstName": "samuel",
       "lastName": "imafidon",
-      "username": "nnamdi",
+      "username": "namdi",
       "password": "54321",
       "email": "samuel@gmail.com",
       "admin": false
@@ -47,6 +77,46 @@
       "username": "kadri123",
       "password": "1234567",
       "email": "kadri@salome.com"
+    },
+    {
+      "id": 4,
+      "firstname": "Chibueze ",
+      "lastname": "Ehizogie",
+      "username": "chibueze123",
+      "password": "321chibu",
+      "email": "chibueze@gmail.com"
+    },
+    {
+      "id": 5,
+      "firstname": "Chibueze ",
+      "lastname": "Ehizogie",
+      "username": "chibueze123",
+      "password": "321chibu",
+      "email": "chibueze@gmail.com"
+    },
+    {
+      "id": 6,
+      "firstname": "Manbele",
+      "lastname": "Marbe",
+      "username": "manbele123",
+      "password": "1234098",
+      "email": "manbele@gmail.com"
+    },
+    {
+      "id": 7,
+      "firstname": "Bolarinwa",
+      "lastname": "Balogun",
+      "username": "bolarinwa123",
+      "password": "54321",
+      "email": "balorinwa@balogun.com"
+    },
+    {
+      "firstname": "Belfast",
+      "lastname": "Kalejaiye",
+      "username": "bolanga",
+      "password": "1234512345",
+      "email": "belfast@kalejaiye.com",
+      "id": 8
     }
   ]
 }
