@@ -1,4 +1,4 @@
-
+{
   "adminPost": [
     {
       "id": 1,
@@ -47,71 +47,6 @@
       "username": "kadri123",
       "password": "1234567",
       "email": "kadri@salome.com"
-    }
-  ]
-}{
-  "Admin": [
-    {
-      "adminProfile": [
-        {
-          "username": "json-server",
-          "password": "typeCode"
-        }
-      ],
-      "adminPost": [
-        {
-          "title": " ",
-          "body": "",
-          "pictureUrl": ""
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "title": "dvsbsdvsdjkvhdvbdshb",
-      "body": "svdhjbvsdvsdvhjdsbvsdhjv",
-      "pictureUrl": "svdjvbdvjdsvjsdsjhkvbsdhjvsdbhj"
-    },
-    {
-      "id": 2,
-      "title": "aefhdsvbsdhjvsdbhj",
-      "body": "sdjdsk dsjhdhjsdjkhshj",
-      "pictureUrl": "sdvjsdkvbsdjkvsdjkvskjvs"
-    }
-  ],
-  "Users": [
-    {
-      "userProfile": [
-        {
-          "id": 1,
-          "firstName": "",
-          "lastName": "",
-          "username": "some comments",
-          "password": 1,
-          "email": ""
-        }
-      ],
-      "userLogin": [
-        {
-          "id": 1,
-          "username": "some comments",
-          "password": 1
-        }
-      ]
-    },
-    {
-      "id": 1,
-      "password": "hhrhrh",
-      "email": "hrhrhrh",
-      "comments": "hhththhrh"
-    },
-    {
-      "id": 2,
-      "firstname": "Adepenv",
-      "lastname": "feejs",
-      "username": "ecdsand",
-      "password": "sasnscnsna",
-      "email": "ddvmvdvn@vdmdvdm"
     }
   ]
 }
