@@ -1,22 +1,13 @@
 
 
 	$(document).ready(function(){
-		// 	$.ajax({
-		// 		type:"GET",
-		// 		url:" http://localhost:3000/Users",
-		// 		success:function(result){
-		// 			console.log(result);
-		// 			"<table><thead></thead><tr><th>Name</th><th>User</th><th>username</th></tr></thead><tbody>";
-		// 			for(var i in result) {
-		// 				output +="<tr><td>" + result[i].firstname + "</td><td> " + result[i].email + "</td><td>" + result[i].username + "</td></tr>"
-		// 			}
-		// 			output += "</tbody></table>";
-		// 			displayResources.html(output);
-		// 			$("table").addClass("table");
-		// 		}
-		// 	});
-		// });
-	
+		var uniqId = (function(){
+			var i = 0;
+			return function (){
+				return i++;
+			}
+		})()
+		
 		// $("#read-database").click(function(){
 		// 	var displayResources = $("#display-resources")
 		// })
