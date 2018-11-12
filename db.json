@@ -1,4 +1,55 @@
-{
+
+  "adminPost": [
+    {
+      "id": 1,
+      "title": " ",
+      "body": "",
+      "pictureUrl": ""
+    },
+    {
+      "id": 2,
+      "title": "Shepherd ",
+      "body": "This is a way of growing healthy in the field",
+      "pictureUrl": "http://www.grow.com"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "nnamdi",
+      "lastName": "nwabuokei",
+      "username": "nnamdi123",
+      "password": "12345",
+      "email": "nnamdi@gmail.com",
+      "admin": true
+    },
+    {
+      "id": 1,
+      "firstName": "samuel",
+      "lastName": "imafidon",
+      "username": "nnamdi",
+      "password": "54321",
+      "email": "samuel@gmail.com",
+      "admin": false
+    },
+    {
+      "id": 2,
+      "firstname": "Okorocha",
+      "lastname": "Pamela",
+      "username": "okorocha123",
+      "password": "pamela",
+      "email": "pamela@okorocha.com"
+    },
+    {
+      "id": 3,
+      "firstname": "Salome",
+      "lastname": "Kadri",
+      "username": "kadri123",
+      "password": "1234567",
+      "email": "kadri@salome.com"
+    }
+  ]
+}{
   "Admin": [
     {
       "adminProfile": [
