@@ -120,6 +120,10 @@
 							<label for="animal-pictureUrl" class="col-form-label"> Picture url:</label>
 							<input type="text" class="form-control" id="animal-pictureUrl">
 						</div>
+						<div class="form-group">
+
+							<input type="hidden" class="form-control" id="animal-id">
+						</div>
 
 
 
@@ -127,7 +131,7 @@
 				</div>
 				<div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button type="button" class="btn btn-primary" id="update-submit" onclick="fetchData(counter)">Send message</button>
+					<button type="button" class="btn btn-primary" onclick="Update()">Send message</button>
 				</div>
 			</div>
 		</div>
