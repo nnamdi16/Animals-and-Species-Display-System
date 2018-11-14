@@ -93,48 +93,41 @@
 			</div>
 		</div>
 	</div>
-	<!-- Sign Up Modal -->
 	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Sign Up </h5>
+					<h5 class="modal-title" id="exampleModalLabel">New message</h5>
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						<span aria-hidden="true">&times;</span>
 					</button>
 				</div>
 				<div class="modal-body">
 					<form>
-						<div id="msg"></div>
 						<div class="form-group">
-							<label for="user-firstName" class="col-form-label">First Name:</label>
-							<input type="text" class="form-control" id="user-firstName">
+							<label for="animal-name" class="col-form-label">Animal name:</label>
+							<input type="text" class="form-control" id="animal-name">
 						</div>
 						<div class="form-group">
-							<label for="user-lastName" class="col-form-label">Last Name:</label>
-							<input type="text" class="form-control" id="user-lastName">
+							<label for="animal-species" class="col-form-label">Animal Species:</label>
+							<input type="text" class="form-control" id="animal-species">
 						</div>
 						<div class="form-group">
-							<label for="user-email" class="col-form-label">Email:</label>
-							<input type="text" class="form-control" id="user-email" name="email">
+							<label for="animal-description" class="col-form-label">Description:</label>
+							<textarea class="form-control" id="animal-description"></textarea>
 						</div>
 						<div class="form-group">
-							<label for="user-username" class="col-form-label">Username:</label>
-							<input type="text" class="form-control" id="user-username" name="userName">
+							<label for="animal-pictureUrl" class="col-form-label"> Picture url:</label>
+							<input type="text" class="form-control" id="animal-pictureUrl">
 						</div>
-						<div class="form-group">
-							<label for="user-password" class="col-form-label">Password:</label>
-							<input type="text" class="form-control" id="user-password">
-						</div>
-						<div class="form-group">
-							<label for="user-password" class="col-form-label">Password:</label>
-							<input type="text" class="form-control" id="renter-password">
-						</div>
+
+
+
 					</form>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary" id="signUp-submit" name="validate">Send message</button>
-					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary" id="update-submit" onclick="Update(counter)">Send message</button>
 				</div>
 			</div>
 		</div>
