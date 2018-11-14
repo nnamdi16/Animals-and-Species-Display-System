@@ -1,41 +1,6 @@
 {
   "adminPost": [
     {
-      "id": 1,
-      "animalName": " ",
-      "animalSpecies": "",
-      "pictureUrl": "",
-      "description": ""
-    },
-    {
-      "animalName": "Butterfly",
-      "animalSpecies": "labalaba",
-      "pictureUrl": "Butterfly designed in natural hemisphere to build strong feet",
-      "description": "www.hemisphere.com",
-      "id": 2
-    },
-    {
-      "animalName": "Bacchus",
-      "animalSpecies": "bala",
-      "pictureUrl": "cvdbshbsjkbvsjkvdsjkvbsdkjvskjdvdksvskbv",
-      "description": "vchdcvdcdhjvbdhjvdbjdbbd",
-      "id": 3
-    },
-    {
-      "animalName": "Backbite",
-      "animalSpecies": "baksa",
-      "pictureUrl": "bfhwvbdshjvbdsjbvdsjbvdsjvbdsjvkdsbvdjsvbsjb",
-      "description": "jdvbdjsbvdsjvdsvbdsjvkbsdjkvd",
-      "id": 4
-    },
-    {
-      "animalName": "Beard",
-      "animalSpecies": "baskalsaa",
-      "pictureUrl": "vbvedbdshjbvhjvbdhjvbdjhvdsbvshjbvjhvbsdjbvsd",
-      "description": "sevhdsvbdsjvbdsjkvbdskvbdsjvbdjvbdvsb",
-      "id": 5
-    },
-    {
       "animalName": "Beggar",
       "animalSpecies": "Webad",
       "pictureUrl": "gvewbhvbdshjvbdjvbdjvbdjvdbvsjbdv",

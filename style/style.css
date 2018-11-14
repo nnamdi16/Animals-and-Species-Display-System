@@ -6,3 +6,33 @@ body {
 .menu-button {
 	padding: 0 20px;
 }
+
+
+.table {
+	border-collapse: collapse;
+	border: 0;
+
+}
+
+.table th {
+	color: white;
+	background-color: #036;
+}
+
+
+.table tr {
+	background: #EEF;
+	border-bottom: 1px solid #036;
+
+}
+
+.table tr:last-child {
+	border-bottom: 2px solid #036;
+
+}
+
+.table td {
+	padding: .3em;
+
+
+}

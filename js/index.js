@@ -1,5 +1,4 @@
 
-
 	$(document).ready(function(){
 	//--------------------POST REQUEST---------------------------------------------------------------------------------	
 			function create(data) {
@@ -26,11 +25,12 @@
 
 
 //---------------------------------Login Form--------------------------------------------------------------------------
+// /authentication?username=USERNAME
 			$('#login-submit').click(function(){
 				let ema = $('#login-username').val();
 				let pas = $('#login-password').val();
 				console.log(pas);
-				$.get("http://localhost:3000/users?username="+ema,function(data){
+				$.get("http://localhost:3000/users?username=USERNAME"+ema,function(data){
 					let obj = JSON.stringify(data[0].password);
 					pas = JSON.stringify(pas);
 					if((pas == obj && pas == 12345)){
@@ -120,6 +120,7 @@
 			
 		});
 //-----------------------------------------------------------------------------------------------------------------------
+
 
 		});
 
