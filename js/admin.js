@@ -16,7 +16,7 @@ $(document).ready(function(){
 			  `<tr><td>
 				${data[counter].animalName}</td><td>${data[counter].animalSpecies}</td><td>${data[counter].pictureUrl}</td><td>${data[counter].description}</td><td>
 				<a href='./delete.html?id=${data[counter].id}'></a>
-				<button type='button'class="btn btn-primary"  onClick = "Delete(counter)">DELETE</button><button type='button' class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">UPDATE</button></td><tr>`
+				<button type='button'class="btn btn-primary"  onClick = "Delete(counter)">DELETE</button><button type='button' onClick="fetchData(${data[counter].id})" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">UPDATE</button></td><tr>`
 			);
 		  }
 		},
