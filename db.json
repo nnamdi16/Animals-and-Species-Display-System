@@ -1,18 +1,18 @@
 {
   "adminPost": [
     {
-      "animalName": "afsvahsvfdsahfbdsahjfbasdjfb",
-      "animalSpecies": "ewfgewfgewfgewfgyegw",
-      "pictureUrl": "efgyuefwfugweufgeg",
-      "description": "",
-      "id": 6
-    },
-    {
       "animalName": "Eranko",
       "animalSpecies": "Mangala",
       "pictureUrl": "A mangala in the field of mangalas ",
       "description": "http://weufehrferer.com",
-      "id": 7
+      "id": 0
+    },
+    {
+      "animalName": "Dog ",
+      "animalSpecies": "Bajo",
+      "pictureUrl": "ewfgyegfeywgfewfhbwehfweiofhwowefiouh",
+      "description": "wygfwwegfyewfgweyfgweyfwe",
+      "id": 1
     }
   ],
   "users": [
@@ -89,6 +89,14 @@
       "password": "1234512345",
       "email": "belfast@kalejaiye.com",
       "id": 8
+    },
+    {
+      "firstname": "David ",
+      "lastname": "Mogbeyikeren",
+      "username": "david123",
+      "password": "543211",
+      "email": "david@gmail.com",
+      "id": 9
     }
   ]
 }

@@ -1,6 +1,6 @@
 
 let url = new URL(document.location.href);
-let counter  = 6;
+let counter  = 0;
 let i = url.searchParams.get("id");
 let path = `http://localhost:3000/adminPost/${counter}`;
 function Delete(){
@@ -19,21 +19,49 @@ function Delete(){
   
 }
 
+function fetchData(){
   $.get(
-    `http://localhost:/adminPost`,
+    `http://localhost:/adminPost?id=` + id,
     function(data){
-      let 
+      //Values used to fillout the form
+      let animalName = data[counter].animalName;
+      let animalSpecies = data[counter].animalSpecies;
+      let pictureUrl = data[counter].pictureUrl;
+      let description = data[counter].description;
+        
+      $("#animal-name").val () = animalName;
+      $("#animal-species").val() = animalSpecies;
+      $("#animal-description").val() = pictureUrl;
+      $("#animal-pictureUrl").val()  = description;
+      
+      $.ajax({
+        url:path,
+        method: 'PUT',
+        success:function(response){
+        alert("Update completed");
+        document.location.href = "gallery.html";
+        },
+        error: function(){
+          alert("No update")
+        }
+      })
+
     }
     
   )
 
+}
+
+  
 function Update(){
   ++counter;
   console.log(counter);
-  const animalName = $("#animal-name").val();
-	const animalSpecies =$("#animal-species").val();
-	const description = $("#animal-description").val();
-	const pictureUrl = $("#animal-pictureUrl").val();
+  let  animalName = $("#animal-name").val();
+	let animalSpecies =$("#animal-species").val();
+  let  description = $("#animal-description").val();
+  let pictureUrl = $("#animal-pictureUrl").val();
+  animalName =data[counter].animalName;
+  animalSpecies = data[counter].animal
   const data = {
     animalName:animalName,
     animalSpecies:animalSpecies,
