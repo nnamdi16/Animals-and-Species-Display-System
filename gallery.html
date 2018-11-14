@@ -12,6 +12,9 @@
 	 crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" media="screen" href="./style/style.css" />
 	<script src="./js/index.js"></script>
+	<script src="./js/admin.js"></script>
+	<script src="./js/delete.js"></script>
+	<!-- <script src="./js/gallery.js"></script> -->
 </head>
 
 <body>
@@ -23,6 +26,8 @@
 				 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Sign
+					Up</button>
 				<a class="navbar-brand" href="#">Beta Zoo</a>
 
 				<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
@@ -58,6 +63,7 @@
 		</div>
 		<div class="container">
 			<div class="row">
+				<div id="table" class="table"></div>
 				<div class="col-md-3">
 					<div class="letters" id="letter-a">
 						<h3>A</h3>
@@ -87,6 +93,54 @@
 			</div>
 		</div>
 	</div>
+	<!-- Sign Up Modal -->
+	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title" id="exampleModalLabel">Sign Up </h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<form>
+						<div id="msg"></div>
+						<div class="form-group">
+							<label for="user-firstName" class="col-form-label">First Name:</label>
+							<input type="text" class="form-control" id="user-firstName">
+						</div>
+						<div class="form-group">
+							<label for="user-lastName" class="col-form-label">Last Name:</label>
+							<input type="text" class="form-control" id="user-lastName">
+						</div>
+						<div class="form-group">
+							<label for="user-email" class="col-form-label">Email:</label>
+							<input type="text" class="form-control" id="user-email" name="email">
+						</div>
+						<div class="form-group">
+							<label for="user-username" class="col-form-label">Username:</label>
+							<input type="text" class="form-control" id="user-username" name="userName">
+						</div>
+						<div class="form-group">
+							<label for="user-password" class="col-form-label">Password:</label>
+							<input type="text" class="form-control" id="user-password">
+						</div>
+						<div class="form-group">
+							<label for="user-password" class="col-form-label">Password:</label>
+							<input type="text" class="form-control" id="renter-password">
+						</div>
+					</form>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+						<button type="button" class="btn btn-primary" id="signUp-submit" name="validate">Send message</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- <script src="./js/delete.js"></script> -->
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
 	 crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
