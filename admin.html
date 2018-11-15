@@ -12,6 +12,11 @@
 	 crossorigin="anonymous"></script>
 	<link rel="stylesheet" type="text/css" media="screen" href="./style/style.css" />
 	<script src="./js/index.js"></script>
+	<script src="./js/delete.js"></script>
+	<script src="./js/index.js"></script>
+	<script src="./js/lightbox-plus-jquery.min.js"></script>
+	<script src="./js/user.js"></script>
+
 </head>
 
 <body>
@@ -56,6 +61,26 @@
 		<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Open
 			modal for @mdo</button>
 
+		
+			<div class="container">
+				<div class="row">
+					<table class="table">
+						<thead class="thead-dark">
+						  <tr>
+							<th scope="col">Animal Name</th>
+							<th scope="col">Species</th>
+							<th scope="col">Description</th>
+							<th scope="col">Picture</th>
+							<th scope="col"></th>
+					  
+						  </tr>
+						</thead>
+						<tbody id = "newTable">
+						  
+						</tbody>
+					  </table>
+				</div>
+			</div>
 
 		<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 			<div class="modal-dialog" role="document">

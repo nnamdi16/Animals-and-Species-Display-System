@@ -30,14 +30,14 @@
 				let ema = $('#login-username').val();
 				let pas = $('#login-password').val();
 				console.log(pas);
-				$.get("http://localhost:3000/users?username=USERNAME"+ema,function(data){
+				$.get("http://localhost:3000/users?username=" + ema,function(data){
 					let obj = JSON.stringify(data[0].password);
 					pas = JSON.stringify(pas);
 					if((pas == obj && pas == 12345)){
 						location.replace("http://127.0.0.1:8008/admin.html");
 					}
 					else if(pas == obj && !(pas==12345)){
-						location.replace("http://127.0.0.1:8008/blog.html")
+						location.replace("http://127.0.0.1:8008/gallery.html")
 					}else{
 						alert("Wrong username or password");
 					}
