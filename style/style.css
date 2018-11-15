@@ -3,8 +3,21 @@ body {
 	padding: 0;
 }
 
+
+.back-light{
+	background-color:#998b5fcc;
+	
+}
+
+.back-font{
+	color: #fff;
+}
+
 .menu-button {
 	padding: 0 20px;
+}
+.sign-button{
+	border-color:#FFF;
 }
 
 

@@ -6,11 +6,11 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>Animals and Species Display System</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" media="all" href="./style/style.css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
 	 crossorigin="anonymous">
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
 	 crossorigin="anonymous"></script>
-	 <link rel="stylesheet" type="text/css" media="all" href="./style/style.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="./style/index.css" />
 	<link rel="stylesheet" type="text/css" media="all" href="./style/blog.css" />
 	
@@ -21,46 +21,29 @@
 
 <body>
 	<div>
-		<div class="d-flex flex-row justify-content-between">
+		<nav class="navbar navbar-expand-lg navbar-light back-light">
+			<a class="navbar-brand text-white " href="#">WILDVIEW</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarText">
+			  <ul class="navbar-nav mr-auto">
+				<li class="nav-item active">
+				  <a class="nav-link" href="./gallery.html">GALLERY<span class="sr-only">(current)</span></a>
+				</li>
+				
+			  </ul>
+			  <span class="navbar-text">
+				<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+					Sign Up
+				  </button>
+				  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#new-modal">
+					Sign In
+				  </button>
+			  </span>
+			</div>
+		  </nav>
 
-			<nav class="navbar navbar-expand-lg navbar-light bg-light">
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
-				 aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<a class="navbar-brand" href="#">Beta Zoo</a>
-
-				<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-					<ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-						<li class="nav-item active">
-							<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Gallery</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="#">Resources</a>
-						</li>
-						<li class="nav-item menu-button float-right">
-							<!-- <a class="nav-link" href="#">Sign Up</a> -->
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Sign
-								Up</button>
-						</li>
-						<li class="nav-item menu-button float-right">
-							<!-- <a class="nav-link" href="#">Sign In</a> -->
-							<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#new-modal" data-whatever="@mdo">Sign
-								In</button>
-						</li>
-
-					</ul>
-					<form class="form-inline my-2 my-lg-0" action="admin.html">
-						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-					</form>
-				</div>
-			</nav>
-
-		</div>
 		<div class="img-slider">
 			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 				<ol class="carousel-indicators">
@@ -70,13 +53,13 @@
 				</ol>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<img class="d-block w-100" src="./img/annoyed-cafe-coffee-52608.jpg" alt="First slide">
+						<img class="d-block w-100" src="./img/afri.png" alt="First slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="./img/beach-boys-children-939702.jpg" alt="Second slide">
+						<img class="d-block w-100" src="./img/ani.png" alt="Second slide">
 					</div>
 					<div class="carousel-item">
-						<img class="d-block w-100" src="./img/redwoodnationalpark1587301640.jpg" alt="Third slide">
+						<img class="d-block w-100" src="./img/ani1.png" alt="Third slide">
 					</div>
 					<div class="carousel-item">
 						<img class="d-block w-100" src="./img/redwoodnationalpark1587301640.jpg" alt="Third slide">
@@ -92,12 +75,12 @@
 				</a>
 			</div>
 		</div>
-		<br><br>
+		
 		<!-- Content -->
 		<div class="content">
-			<div class="container">
-				<div class="content-grids">
-					<div class="col-md-5 content-left">
+			<div class="container mx-5 my-5 ">
+				<div class="row">
+					<div class="col-md-5 content-left flex-column">
 						<div class="cntnt-head">
 							<h3>Welcome</h3>
 							<span></span>
@@ -328,19 +311,20 @@
 					<div class="modal-body">
 						<form>
 
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="login-username" class="col-form-label">Username:</label>
 								<input type="text" class="form-control" id="login-username">
 							</div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="login-password" class="col-form-label">Message:</label>
 								<input type="text" class="form-control" id="login-password">
 							</div>
 						</form>
 					</div>
 					<div class="modal-footer">
+						<button type="button" class="btn btn-primary" id="login-submit">Submit</button>
 						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						<button type="button" class="btn btn-primary" id="login-submit">Send message</button>
+						
 					</div>
 				</div>
 			</div>
@@ -359,34 +343,35 @@
 					<div class="modal-body">
 						<form>
 							<div id="msg"></div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="user-firstName" class="col-form-label">First Name:</label>
 								<input type="text" class="form-control" id="user-firstName">
 							</div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="user-lastName" class="col-form-label">Last Name:</label>
 								<input type="text" class="form-control" id="user-lastName">
 							</div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="user-email" class="col-form-label">Email:</label>
 								<input type="text" class="form-control" id="user-email" name="email">
 							</div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="user-username" class="col-form-label">Username:</label>
 								<input type="text" class="form-control" id="user-username" name="userName">
 							</div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="user-password" class="col-form-label">Password:</label>
 								<input type="text" class="form-control" id="user-password">
 							</div>
-							<div class="form-group">
+							<div class="form-group pr-3 pl-3">
 								<label for="user-password" class="col-form-label">Password:</label>
 								<input type="text" class="form-control" id="renter-password">
 							</div>
 						</form>
 						<div class="modal-footer">
+								<button type="button" class="btn btn-primary" id="signUp-submit" name="validate">Submit</button>
 							<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-							<button type="button" class="btn btn-primary" id="signUp-submit" name="validate">Send message</button>
+							
 						</div>
 					</div>
 				</div>
@@ -431,7 +416,7 @@
 						<div class="clearfix"> </div>
 					</div>
 					<div class="copy_right">
-						<p>© 2018 All rights reserved</p>
+						<p>© 2010 All rights reserved</p>
 					</div>
 				</div>
 			</div>

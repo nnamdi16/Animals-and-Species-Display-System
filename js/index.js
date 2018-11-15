@@ -34,10 +34,10 @@
 					let obj = JSON.stringify(data[0].password);
 					pas = JSON.stringify(pas);
 					if((pas == obj && pas == 12345)){
-						location.replace("http://127.0.0.1:8008/admin.html");
+						window.location.href = "./admin.html";
 					}
 					else if(pas == obj && !(pas==12345)){
-						location.replace("http://127.0.0.1:8008/gallery.html")
+						window.location.href = "./gallery.html";
 					}else{
 						alert("Wrong username or password");
 					}
