@@ -33,7 +33,7 @@
       "admin": true
     },
     {
-      "id": 1,
+      "id": 2,
       "firstName": "samuel",
       "lastName": "imafidon",
       "username": "namdi",
@@ -42,7 +42,7 @@
       "admin": false
     },
     {
-      "id": 2,
+      "id": 3,
       "firstname": "Okorocha",
       "lastname": "Pamela",
       "username": "okorocha123",
@@ -50,20 +50,12 @@
       "email": "pamela@okorocha.com"
     },
     {
-      "id": 3,
+      "id": 4,
       "firstname": "Salome",
       "lastname": "Kadri",
       "username": "kadri123",
       "password": "1234567",
       "email": "kadri@salome.com"
-    },
-    {
-      "id": 4,
-      "firstname": "Chibueze ",
-      "lastname": "Ehizogie",
-      "username": "chibueze123",
-      "password": "321chibu",
-      "email": "chibueze@gmail.com"
     },
     {
       "id": 5,
@@ -74,7 +66,15 @@
       "email": "chibueze@gmail.com"
     },
     {
-      "id": 6,
+      "id": 7,
+      "firstname": "Chibueze ",
+      "lastname": "Ehizogie",
+      "username": "chibueze123",
+      "password": "321chibu",
+      "email": "chibueze@gmail.com"
+    },
+    {
+      "id": 8,
       "firstname": "Manbele",
       "lastname": "Marbe",
       "username": "manbele123",
@@ -82,7 +82,7 @@
       "email": "manbele@gmail.com"
     },
     {
-      "id": 7,
+      "id": 9,
       "firstname": "Bolarinwa",
       "lastname": "Balogun",
       "username": "bolarinwa123",
@@ -95,7 +95,7 @@
       "username": "bolanga",
       "password": "1234512345",
       "email": "belfast@kalejaiye.com",
-      "id": 8
+      "id": 10
     }
   ]
 }

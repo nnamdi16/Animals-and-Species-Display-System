@@ -36,3 +36,296 @@ body {
 
 
 }
+
+h4,
+h5,
+h6,
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	margin: 0;
+}
+
+html,
+body {
+	font-family: 'OpenSans-Regular';
+	font-size: 100%;
+	background: #ffffff;
+}
+
+@font-face {
+	font-family: 'OpenSans-Regular';
+	src: url(../fonts2/OpenSans-Regular.ttf)format('truetype');
+}
+
+@font-face {
+	font-family: 'Marvel-Regular';
+	src: url(../fonts2/Marvel-Regular.ttf) format('truetype');
+}
+
+body a {
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+	-ms-transition: 0.5s all;
+
+}
+
+body a:hover {
+	text-decoration: none;
+}
+
+.row {
+	margin: 0;
+}
+
+.breadcrumb {
+	margin: 2em 0;
+	text-align: left;
+}
+
+h1.b1,
+h2.b2,
+h3.b3 {
+	margin-bottom: 25px;
+	display: block;
+}
+
+.menu-button {
+	padding: 0 20px;
+}
+
+.content {
+	padding: 4em 0 5em 0;
+}
+
+.cntnt-head h3,
+.recent_album h3,
+.news-head h3,
+.testi-head h3,
+.service h3 {
+	color: #b28b51;
+	font-size: 2.5em;
+	margin-bottom: 6px;
+	font-family: 'Marvel-Regular';
+	font-weight: 700;
+}
+
+.cntnt-head span,
+.testi-head span {
+	display: inline-block;
+	width: 10%;
+	background: #b28b51;
+	height: 2px;
+}
+
+.panel-default>.panel-heading {
+	color: #999;
+	background: url(../img/pls.png) no-repeat 7px 11px #fff;
+	padding: 10px 30px;
+}
+
+.panel-group .panel-heading+.panel-collapse>.panel-body,
+.panel-group .panel-heading+.panel-collapse>.list-group {
+	border-top: transparent;
+}
+
+.panel-default {
+	border-color: #FFF;
+}
+
+.panel-default {
+	border-bottom: 1px solid rgba(51, 51, 51, 0.16);
+}
+
+.panel-body {
+	padding: 7px 20px 13px;
+	color: #777;
+	line-height: 1.8em;
+	font-size: 0.9em;
+}
+
+.panel-title>a,
+.panel-title>small,
+.panel-title>.small,
+.panel-title>small>a,
+.panel-title>.small>a {
+	color: #343434;
+	font-size: 1em;
+	margin-bottom: 6px;
+}
+
+.panel-title a:hover {
+	color: #b28b51;
+	text-decoration: none;
+}
+
+.panel-group {
+	margin-bottom: 0px;
+	margin-top: 2em;
+}
+
+.icon-grids {
+	margin-top: 3em;
+}
+
+.icon {
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	border: 1px solid #b28b51;
+	border-radius: 620px;
+	margin-bottom: 1.5em;
+	padding: 14px 0px;
+}
+
+.icon-pic {
+	float: left;
+	width: 23%;
+}
+
+.icon-info {
+	float: left;
+	width: 74%;
+	margin-left: 3%;
+}
+
+.glyphicon-camera:before,
+.glyphicon-facetime-video:before,
+.glyphicon-globe:before,
+.glyphicon-map-marker:before {
+	color: #BABABA;
+	font-size: 28px;
+}
+
+.icon-info h4 a {
+	color: #6F5C1D;
+	font-size: 1em;
+	font-weight: 600;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.icon-info h4 a:hover {
+	color: #b28b51;
+}
+
+.icon-info span {
+	display: inline-block;
+	width: 20%;
+	background: #6F5C1D;
+	height: 1px;
+}
+
+.icon-info p {
+	font-size: 0.9em;
+	line-height: 1.8em;
+	color: #777;
+	margin-top: 8px;
+}
+
+.futr-grid {
+	padding-left: 0;
+}
+
+.grids2 {
+	margin-top: 4em;
+}
+
+.service {
+	padding-bottom: 3em;
+}
+
+.prjt-grid {
+	width: 30%;
+	float: left;
+	margin: 2% 3% 0% 0;
+}
+
+.box img {
+	width: 100%;
+}
+
+.project-info a {
+	color: #6F5C1D;
+	font-size: 1.35em;
+	font-family: 'Marvel-Regular';
+	font-weight: 700;
+	text-decoration: none;
+	display: inline-block;
+	margin: 0.5em 0;
+}
+
+.project-info a:hover {
+	color: #b28b51;
+	text-decoration: none;
+}
+
+.project-info p {
+	font-size: 0.9em;
+	line-height: 1.8em;
+	color: #777;
+}
+
+.recent_album {
+	padding: 0em 0px 5em;
+}
+
+.recent_album h3 {
+	text-align: center;
+}
+
+.gallery-bottom {
+	margin-top: 5%;
+}
+
+.gallery-left img {
+	width: 100%;
+}
+
+.gallery-left:hover img {
+	-webkit-filter: grayscale(100%);
+	opacity: 8;
+	transition: all 300ms !important;
+	-webkit-transition: all 300ms !important;
+	-moz-transition: all 300ms !important;
+}
+
+.gallery-left {
+	position: relative;
+}
+
+.gallery-grid img {
+	width: 100%;
+}
+
+.gallery-grid:hover img {
+	-webkit-filter: grayscale(100%);
+	opacity: 8;
+	transition: all 300ms !important;
+	-webkit-transition: all 300ms !important;
+	-moz-transition: all 300ms !important;
+}
+
+.gallery-grid {
+	position: relative;
+}
+
+.gallery-1 {
+	margin-top: 25px;
+}
+
+.gallery-1:nth-child(1) {
+	margin-top: 0;
+}
