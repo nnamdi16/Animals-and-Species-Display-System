@@ -12,7 +12,7 @@ $(document).ready(function(){
 		function(data) {
 		  for (counter in data) {
 				console.log(counter);
-			$("#table").append(
+			$("#newTable").append(
 			  `<tr><td>
 				${data[counter].animalName}</td><td>${data[counter].animalSpecies}</td><td>${data[counter].pictureUrl}</td><td>${data[counter].description}</td><td>
 				<a href='./delete.html?id=${data[counter].id}'></a>
