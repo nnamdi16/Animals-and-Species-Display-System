@@ -342,3 +342,9 @@ h3.b3 {
 .gallery-1:nth-child(1) {
 	margin-top: 0;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
