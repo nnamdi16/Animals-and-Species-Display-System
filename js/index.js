@@ -6,6 +6,7 @@
 		// $(this).removeClass("n-hidden");
 		$('.n-hidden').css('display','none');
 		$('.n-nhidden').css('display','initial');
+		$('.n-dhidden').css('display','none');
 
 	 });
 	
@@ -15,7 +16,17 @@
 			// $(this).removeClass("n-hidden");
 			$('.n-hidden').css('display','initial');
 			$('.n-nhidden').css('display','none');
+			$('.n-dhidden').css('display','none');
 
+		 });
+
+
+		 $(".frmSubmit").click(function(){
+			// $(this).removeClass("n-hidden");
+			$('.n-hidden').css('display','none');
+			$('.n-nhidden').css('display','none');
+			$('.n-dhidden').css('display','initial');
+	
 		 });
 	//--------------------POST REQUEST-------------------------------------------------------------------------	
 			function create(data) {
