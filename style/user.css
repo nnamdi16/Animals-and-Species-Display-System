@@ -3,6 +3,17 @@ header {
 
 }
 
+div.n-hidden {
+	display: none;
+}
+
+div.n-nhidden {
+	display: initial;
+}
+
+.n-dhidden {
+	display: none;
+}
 
 .n-header {
 	background-color: white;
