@@ -1,0 +1,98 @@
+header {
+	padding: 0 0 0 50px;
+
+}
+
+
+.n-header {
+	background-color: white;
+	height: 70px;
+	width: 90%;
+	margin: auto;
+	-webkit-box-shadow: -1px 0px 2px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow: -1px 0px 2px 0px rgba(255, 255, 255, 1);
+	box-shadow: -1px 0px 2px 0px rgba(255, 255, 255, 1);
+	display: flex;
+	flex-direction: row;
+
+}
+
+.n-banner {
+	color: white;
+}
+
+
+.n-logo {
+	padding: 30px 20px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: bolder;
+	font-size: 170%;
+}
+
+
+/* .n-menu {
+	list-style: none;
+	display: block;
+} */
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: white;
+	overflow: hidden;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	width: 1200px;
+	height: inherit;
+	-webkit-box-shadow: -1px 0px 2px 0px rgba(255, 255, 255, 1);
+	-moz-box-shadow: -1px 0px 2px 0px rgba(255, 255, 255, 1);
+	box-shadow: -1px 0px 2px 0px rgba(255, 255, 255, 1);
+	display: flex;
+	flex-direction: row;
+	/* background-color: #797979; */
+}
+
+/* .topnav a{
+	padding: 50px 20px;
+} */
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: blue;
+	text-align: center;
+	padding: 20px 16px;
+	text-decoration: none;
+	font-size: 17px;
+
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #333;
+	color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	border-bottom: 3px solid #333;
+	color: black;
+
+}
+
+.n-sign {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+}
+
+
+.n-banner {
+	width: 50%;
+}
+
+.bg-banner {
+	display: flex;
+}
+
+.n-banner header {
+	margin-top: 20%;
+}
